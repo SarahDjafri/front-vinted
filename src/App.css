@@ -1,0 +1,332 @@
+/* -------GENERAL-------------- */
+.root {
+  width: 1425px;
+}
+
+/* ------------------HEADER------------- */
+/* ------------------HEADER------------- */
+/* ------------------HEADER------------- */
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+}
+
+div img {
+  height: 104px;
+  margin-left: 120px;
+}
+
+.container-button {
+  display: flex;
+}
+
+.container-button > button {
+  background-color: #c2175b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Maison Neue;
+  font-size: 13px;
+  height: 32px;
+  width: 98px;
+  margin-right: 300px;
+}
+
+.button-signup {
+  margin-right: 20px;
+}
+
+.button-login-signup {
+  background-color: #fff;
+  color: #2cb1ba;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: Maison Neue;
+  font-size: 13px;
+  height: 30px;
+  width: 115px;
+}
+
+.header-button {
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: Maison Neue;
+  font-size: 14px;
+  height: 30px;
+  width: 115px;
+  margin-right: 245px;
+}
+
+/* ------------------BODY------------- */
+/* ------------------BODY------------- */
+/* ------------------BODY------------- */
+.container-main {
+  background-image: url("https://lereacteur-vinted.netlify.app/static/media/hero.2c66d85a1335550c4518.jpg");
+  background-position: 50%;
+  background-size: cover;
+  height: 455px;
+  position: relative;
+  width: 100%;
+}
+
+.container-main > img {
+  bottom: 0;
+  height: 80px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.block {
+  margin: auto;
+  width: 1280px;
+}
+
+.block-img {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 2px hsla(0, 0%, 7%, 0.24);
+  display: flex;
+  flex-direction: column;
+  font-size: 34px;
+  height: 220px;
+  justify-content: center;
+  padding: 25px;
+  position: absolute;
+  top: 200px;
+  width: 360px;
+}
+
+.block-img > button {
+  background-color: #2baeb7;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  height: 45px;
+  margin-top: 32px;
+  padding: 0 14px;
+  width: 187px;
+}
+
+.font-article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+}
+
+.font-article > a {
+  color: #999;
+  font-size: 13px;
+  text-decoration: none;
+}
+.article {
+  padding: 0 6px 16px;
+  width: 235px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.avatar-img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.container-main {
+  color: #999;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.picture-article {
+  width: 235px;
+  height: 360px;
+  object-fit: cover;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+}
+
+.price {
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+}
+
+.details {
+  font-size: 13px;
+  color: #999;
+  padding-top: 3px;
+}
+
+/* --------SIGNUP-------- */
+/* --------SIGNUP-------- */
+/* --------SIGNUP-------- */
+
+.container-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 245px;
+  height: 35px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fcced3;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.text-newsletter {
+  text-align: left;
+  font-size: 13px;
+  color: #999;
+  padding-left: 19px;
+}
+
+.checkbox {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.signup-news {
+  display: flex;
+  flex-direction: column;
+}
+input[type="checkbox"] {
+  width: 100px;
+  height: 25px;
+}
+
+input[type="submit"] {
+  background-color: #2cb1ba;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Maison Neue;
+  font-size: 16px;
+  height: 44px;
+  width: 275px;
+}
+
+.container-signup > a {
+  text-decoration: none;
+  color: #2cb1ba;
+  font-size: 13px;
+}
+
+/* ------LOGIN-------- */
+/* ------LOGIN-------- */
+/* ------LOGIN-------- */
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----OFFER---------- */
+/* ----OFFER---------- */
+/* ----OFFER---------- */
+
+.container-offer {
+  background-color: #ebedee;
+}
+
+.block-offer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.picture-offer {
+  height: 600px;
+  width: 455px;
+  object-fit: cover;
+}
+
+.info-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 320px;
+  padding: 40px;
+}
+
+.price-offer {
+  font-size: 24px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  /* padding: 2px 0; */
+}
+
+.product-name {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.product-description {
+  margin: 10px 10px;
+  color: #666666;
+  font-size: 17px;
+}
+
+.avatar-offer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.avatar-username {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
